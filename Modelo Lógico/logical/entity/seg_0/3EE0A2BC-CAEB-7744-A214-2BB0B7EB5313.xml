@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3EE0A2BC-CAEB-7744-A214-2BB0B7EB5313" name="Atendimento">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 00:35:09 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Avaliação" id="41BAB76E-F733-E336-9757-9E35E2266AA2">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 01:45:03 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data" id="88824F6A-C3AA-1DE5-6FB3-A9CEB620EFAC">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 01:45:09 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Suporte" id="5A8C9DC9-BFB3-3F3A-6110-15BFC762861A">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 01:45:16 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cadastro" id="3A7E9445-DCA8-AEFA-45F9-7D255A360C12">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 01:47:42 UTC</createdTime>
+<generatorID>E82FCEDC-3A55-4BD5-2A34-0B3F4A0A732A</generatorID>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<referedAttribute>9EE9E044-CB64-4792-1081-C525C2E4EC5F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF" id="0CBEAA9A-D1AE-2EA9-86D9-DE495CAE7FF3">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 01:47:50 UTC</createdTime>
+<generatorID>B52320A2-7F2B-61B8-266A-216C2039822E</generatorID>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<referedAttribute>F4538BB4-2C36-37AA-0868-C874C6AB82F0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0BA75F8D-DA75-0103-4531-B451D5554B45" name="Atendimento PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 01:48:43 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5A8C9DC9-BFB3-3F3A-6110-15BFC762861A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2853138F-B454-D993-F144-56C28179F161" name="Criador">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 00:34:57 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nome" id="ACA58E96-71E3-B9F6-E40E-32FA11EE9EE6">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 01:26:40 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF" id="50009352-4249-95AF-78C7-8E2F4E18D6C7">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 01:26:59 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Comissão" id="616CEE28-BD1E-48B3-9BD0-4F6178F371CC">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 01:32:02 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Registro" id="741D75DD-756D-108B-40F2-C33FC0E9B259">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 01:39:44 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4BCC045A-5B6A-783E-57AF-F250821989B8" name="Criador PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 01:47:38 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>50009352-4249-95AF-78C7-8E2F4E18D6C7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

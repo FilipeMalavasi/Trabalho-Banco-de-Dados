@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5B019A5E-DD9F-41E7-0E29-2240CC69692F" name="Produto">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 00:35:23 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Registro" id="F9A3B27A-159C-D00B-82BC-BDBD52DC7397">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 01:32:33 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Preço" id="4C247EFA-D20F-77C0-C053-E62B1CBB8D30">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 01:32:48 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF" id="D5FD441A-154F-5CF7-571D-485CABAA2BF4">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 01:47:39 UTC</createdTime>
+<generatorID>DE7A675D-1553-145E-FD88-89E4BA5B43A1</generatorID>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<referedAttribute>50009352-4249-95AF-78C7-8E2F4E18D6C7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Produto_Venda" id="74C5976B-84B5-6C03-7BEA-3B421D89DFA5">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 01:48:34 UTC</createdTime>
+<generatorID>D9EBEB19-C0DC-C946-9BB9-46A811F54CDF</generatorID>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<referedAttribute>C06DD4CC-C1B9-D7A9-2EBC-F57D44FECC73</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8A1BAF40-1F71-4835-7D6F-B3B2BE54477F" name="Produto PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 01:47:23 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F9A3B27A-159C-D00B-82BC-BDBD52DC7397</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

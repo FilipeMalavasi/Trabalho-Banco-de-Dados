@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E8D9D3C8-264B-2EE3-5026-D10FE47CB01E" name="Venda">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 00:34:52 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Venda" id="35298251-98B3-FABD-CD66-EE0983C38827">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 01:40:20 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data" id="FA1F7A99-72C4-DA73-12C0-B58783D3E957">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 01:40:29 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Quantidade" id="05DCBEEF-4108-B947-CC6F-D86A7D12556B">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 01:40:34 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Valor" id="139B44CB-EBE4-9A91-60C8-31B6334D2110">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 01:42:32 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cadastro" id="EC4A0BC3-48E2-A3C9-A06D-8C2CDF97D2AF">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 01:47:42 UTC</createdTime>
+<generatorID>207DAF6A-4FF0-C38F-0A0A-4F2FAD9BF765</generatorID>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<referedAttribute>9EE9E044-CB64-4792-1081-C525C2E4EC5F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Produto_Venda" id="F1D7936E-DF6F-F8C5-4D25-BFEEBE29FE37">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 01:48:34 UTC</createdTime>
+<generatorID>8BB67BE1-C3FC-8C62-0313-E381FCE13D47</generatorID>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C06DD4CC-C1B9-D7A9-2EBC-F57D44FECC73</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E144DEA5-17BF-B685-C53B-64C7A6F30C2C" name="Venda PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-25 01:48:02 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="6F7D0970-C8EC-CE33-29AE-99A51ACD6C72" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>35298251-98B3-FABD-CD66-EE0983C38827</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
